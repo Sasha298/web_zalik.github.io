@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <title>All photos</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="header__menu">
+        <ul>
+          <li><a href="#">Photos</a></li>
+          <li><a href="#">Videos</a></li>
+          <li><a href="#">Podcasts</a></li>
+        </ul>
+      </div>
+      <div class="header__search">
+        <input type="text" placeholder=" 🔍Search for anything...">
+      </div>
+      <div class="header__user">
+        <select onchange="changeLanguage(this)">
+          <option value="en" selected>English</option>
+          <option value="uk">Ukrainian</option>
+          <option value="es">Spanish</option>
+        </select>
+        <button id="signin">Sign In</button>
+      </div>
+    </header>
+    <main>
+      <aside>
+        <nav>
+          <ul>
+            <li><a href="#" class="active">🖼 All photos</a></li>
+            <li><a href="#">😁 Selfies</a></li>
+            <li><a href="#">🕜 Recent</a></li>
+            <li><a href="#">🗑 Deleted</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <section>
+  <div class="button-wrapper">
+    <div class="text-wrapper">
+  <h1>All photos</h1>
+</div>
+  <button class="button-h1">Newest</button>
+  <button class="button-h2">Latest</button>
+  </div>
+        <div id="gallery">
+          <div id="gallery">
+            <figure>
+  <div class="gallery">
+  <div class="gallery__row">
+<div class="gallery__item">
+      <img src="https://aboutsupercars.ru/img/car_img/bmw/2014-bmw-m3-f80/2014-bmw-m3-f80.jpg">
+      <h1>M3 F80</h1>
+      <h2>2014-2020</h2>
+      <button class="button-orange">Save to collection</button>
+  <button class="button-white">Share</button>
+    </div>  
+    <div class="gallery__item">
+      <img src="https://eurotuner.de/wp-content/uploads/2021/07/HR-BMW-G80-M3-Competition-Sportfedern-Spurverbreiterung-Topmodell-Limousine-01.jpg">
+      <h1>M3 G80</h1>
+      <h2>2020</h2>
+      <button class="button-orange">Save to collection</button>
+  <button class="button-white">Share</button>
+    </div>  
+    <div class="gallery__item">
+      <img src="https://i.infocar.ua/i/12/3398/1200x800.jpg">
+      <h1>M4 F82</h1>
+      <h2>2012-2020</h2>
+      <button class="button-orange">Save to collection</button>
+  <button class="button-white">Share</button>
+    </div>  <div class="gallery__item">
+      <img src="https://i.infocar.ua/i/12/6292/1200x800.jpg">
+      <h1>M4 G82</h1>
+      <h2>2020</h2>
+      <button class="button-orange">Save to collection</button>
+  <button class="button-white">Share</button>
+    </div>  
+  </div>
+</div>        
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
